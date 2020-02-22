@@ -52,12 +52,18 @@ header.masthead h1 {
 }
 
 .showcase .showcase-text {
+  background-color: #fff2bf;
   padding: 3rem;
+  margin: 0;
 }
 
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+}
+
+.showcase h2 {
+  color: #fd432b;
 }
 
 @media (min-width: 768px) {
@@ -104,7 +110,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/custom_spaces.jpg") no-repeat center center;
+  background: url("../img/custom_spaces_crop.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;

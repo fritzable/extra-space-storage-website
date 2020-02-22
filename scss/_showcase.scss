@@ -1,10 +1,15 @@
 .showcase {
   .showcase-text {
+    background-color: #fff2bf;
     padding: 3rem;
+    margin: 0;
   }
   .showcase-img {
     min-height: 30rem;
     background-size: cover;
+  }
+  h2 {
+    color: rgb(253, 67, 43);
   }
   @media (min-width: 768px) {
     .showcase-text {
