@@ -66,10 +66,34 @@ header.masthead h1 {
   color: #fd432b;
 }
 
+.showcase .modal-trigger {
+  background-color: #fff;
+}
+
+.showcase .modal-trigger:hover {
+  background-color: #212529;
+}
+
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
   }
+}
+
+.map-responsive {
+  background-size: contain;
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .features-icons {
@@ -123,7 +147,7 @@ header.masthead h1 {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 footer.footer {

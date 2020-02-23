@@ -11,9 +11,32 @@
   h2 {
     color: rgb(253, 67, 43);
   }
+  .modal-trigger {
+    background-color:#fff;
+    &:hover {
+      background-color: $gray-900;
+    }
+  } 
+
   @media (min-width: 768px) {
     .showcase-text {
       padding: 7rem;
     }
   }
+}
+
+.map-responsive {
+  background-size: contain;
+	overflow: hidden;
+	padding-bottom: 30%;
+	position: relative;
+  height: 0;
+  
+	iframe {
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
 }

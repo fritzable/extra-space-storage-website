@@ -44,6 +44,9 @@
           <a class="nav-link" href="#spaces">Spaces</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#prices">Prices</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
         <li class="nav-item">
@@ -61,7 +64,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Build a page for your business or project and generate more leads!</h1>
+          <h1 class="mb-5">The private storage solution for your vehicle or equipment!</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
@@ -118,8 +121,32 @@
   <section id="spaces" class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/tractor_trailer.jpg');"></div>
+        <!-- Modal trigger div -->
+        <div class="col-lg-6 order-lg-2 showcase-img modal-trigger text-center d-flex align-items-center" data-toggle="modal" data-target="#exampleModalCenter" style="background-image: url('img/south_yard.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
+          <button type="button" class="btn btn-lg btn-secondary mx-auto " data-toggle="modal" data-target="#exampleModalCenter">
+            See more
+          </button>
+        </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
         <div class="col-lg-6 order-lg-1 showcase-text">
           <h2>Fully Responsive Design</h2>
           <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
@@ -133,7 +160,11 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/boat_trailers.jpg');"></div>
+        <div class="map-responsive col-lg-6 order-lg-2 text-white showcase-img">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3095.7253621476098!2d-108.6219486493146!3d39.11272237943754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874702acedfa5f61%3A0xaf5fb641427d7398!2s2336%20Interstate%20Ave%2C%20Grand%20Junction%2C%20CO%2081505!5e0!3m2!1sen!2sus!4v1582417313590!5m2!1sen!2sus"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+          </iframe>
+        </div>
         <div class="col-lg-6 order-lg-1 showcase-text">
           <h2>Easy to Use &amp; Customize</h2>
           <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
@@ -143,29 +174,36 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials text-center bg-light">
+  <section id="prices" class="testimonials text-center bg-light">
     <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
+      <h2 class="mb-5">Different sizes to meet your need</h2>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/camper_trailer.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/secure_spaces_sq.jpg" alt="">
+            <h5>Private car and trailer parking</h5>
+            <p class="font-weight-light mb-0">from $45 per month.</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/secure_spaces.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/boat_trailers_sq.jpg" alt="">
+            <h5>Private boat and misc. storage</h5>
+            <p class="font-weight-light mb-0">from $95 per month.</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/tractor_trailer.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/tractor_trailer_sq.jpg" alt="">
+            <h5>Private space for RVs and BIG RIGS</h5>
+            <p class="font-weight-light mb-0">from $155 per month.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/camper_trailer_sq.jpg" alt="">
+            <h5>Private pull-through spaces</h5>
+            <p class="font-weight-light mb-0">from $195 per month.</p>
           </div>
         </div>
       </div>
@@ -173,7 +211,7 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
+  <section id="contact" class="call-to-action text-white text-center">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
