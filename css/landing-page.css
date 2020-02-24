@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/yard_entrance.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -34,7 +34,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 header.masthead h1 {
@@ -52,7 +52,9 @@ header.masthead h1 {
 }
 
 .showcase .showcase-text {
+  background-color: #fff2bf;
   padding: 3rem;
+  margin: 0;
 }
 
 .showcase .showcase-img {
@@ -60,10 +62,38 @@ header.masthead h1 {
   background-size: cover;
 }
 
+.showcase h2 {
+  color: #fd432b;
+}
+
+.showcase .modal-trigger {
+  background-color: #fff;
+}
+
+.showcase .modal-trigger:hover {
+  background-color: #212529;
+}
+
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
   }
+}
+
+.map-responsive {
+  background-size: contain;
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .features-icons {
@@ -104,7 +134,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/custom_spaces_crop_x.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -117,10 +147,22 @@ header.masthead h1 {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.4;
+}
+
+.call-to-action .address p {
+  margin: 0;
 }
 
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+footer.footer ul {
+  list-style-type: none;
+}
+
+footer.footer .list-item {
+  margin-bottom: 3rem;
 }
