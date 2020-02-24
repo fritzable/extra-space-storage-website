@@ -67,16 +67,48 @@
           <h1 class="mb-5">The private storage solution for your vehicle or equipment!</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+          
+            <div class="row mx-auto text-center">
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#contactModal">
+  Contact Us Today!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-body" id="contactModalLabel">Contact Extra Space</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-body">
+        <h5>Location</h5>
+        <address>
+          <a href="https://goo.gl/maps/dR9UTePwG6XgmZ5CA">
+          2336 Interstate Avenue<br>Grand Junction, CO 81505</a>
+        </address>
+        <h5>Brent Whitman, Manager</h5>
+        <address>
+          <a href="mailto:brent@cover1000.com">brent@cover1000.com</a><br>
+          <a href="tel:+3115552368">(311) 555-2368</a>
+        </address>
+        <h5>Rocky, Owner</h5>
+        <address>
+          <a href="mailto:rocky@cover1000.com">rocky@cover1000.com</a><br>
+          <a href="tel:+9702602324">(970) 260-2324</a>
+        </address>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
               </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>
-          </form>
         </div>
       </div>
     </div>
@@ -121,8 +153,15 @@
   <section id="spaces" class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
+        <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background-image: url('img/247_access.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 showcase-text">
+          <h2>Need Extra Space?</h2>
+          <p class="lead mb-0">Here since 2000, look to us for secure, convenient parking and storage. Park within a mile of I-70, not your front yard.</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
         <!-- Modal trigger div -->
-        <div class="col-lg-6 order-lg-2 showcase-img modal-trigger text-center d-flex align-items-center" data-toggle="modal" data-target="#extraSpaceYardModalCenter" style="background-image: url('img/south_yard.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
+        <div class="col-lg-6  showcase-img modal-trigger text-center d-flex align-items-center" data-toggle="modal" data-target="#extraSpaceYardModalCenter" style="background-image: url('img/south_yard.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
           <button type="button" class="btn btn-lg btn-secondary mx-auto " data-toggle="modal" data-target="#extraSpaceYardModalCenter">
             See more
           </button>
@@ -143,16 +182,9 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 order-lg-1 showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/247_access.jpg');"></div>
         <div class="col-lg-6 showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>Newly Expanded!</h2>
+          <p class="lead mb-0">More spaces, more features.<br>Power and water hookups available.<br>We have pull-through spaces for your trailer.</p>
         </div>
       </div>
       <div class="row no-gutters">
@@ -162,8 +194,8 @@
           </iframe>
         </div>
         <div class="col-lg-6 order-lg-1 showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2>Conveniently Located</h2>
+          <p class="lead mb-0">Just off of I-70, a half mile east of 23 Road at the end of Insterstate Avenue. </p>
         </div>
       </div>
     </div>
@@ -172,7 +204,7 @@
   <!-- Testimonials -->
   <section id="prices" class="testimonials text-center bg-light">
     <div class="container">
-      <h2 class="mb-5">Different sizes to meet your need</h2>
+      <h2 class="mb-5">Sizes available to meet your need</h2>
       <div class="row">
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
