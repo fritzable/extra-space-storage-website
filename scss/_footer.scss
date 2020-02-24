@@ -1,4 +1,10 @@
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  ul {
+    list-style-type: none;
+  }
+  .list-item {
+    margin-bottom: 3rem;
+  }
 }
