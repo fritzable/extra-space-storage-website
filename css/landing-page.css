@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/yard_entrance.jpg") no-repeat center center;
+  background: url("../img/yard_entrance_crop.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -39,6 +39,11 @@ header.masthead .overlay {
 
 header.masthead h1 {
   font-size: 2rem;
+}
+
+header.masthead a {
+  color: #fff;
+  font-size: 1.1rem;
 }
 
 @media (min-width: 768px) {
