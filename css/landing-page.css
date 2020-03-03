@@ -139,7 +139,7 @@ header.masthead a {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/custom_spaces_crop_x.jpg") no-repeat center center;
+  background: url("../img/custom_spaces.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -157,6 +157,10 @@ header.masthead a {
 
 .call-to-action .address p {
   margin: 0;
+}
+
+.call-to-action .cta-item {
+  background-color: #fff;
 }
 
 footer.footer {
