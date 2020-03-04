@@ -141,8 +141,7 @@ header.masthead a {
   background-color: #343a40;
   background: url("../img/custom_spaces.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
 }
 
 .call-to-action .overlay {
@@ -161,6 +160,10 @@ header.masthead a {
 
 .call-to-action .cta-item {
   background-color: #fff;
+}
+
+.call-to-action .cta-row-bottom {
+  padding-top: 11rem;
 }
 
 footer.footer {
