@@ -37,6 +37,10 @@ header.masthead .overlay {
   opacity: 0.4;
 }
 
+header.masthead .modal-body a {
+  color: #007bff;
+}
+
 header.masthead h1 {
   font-size: 2rem;
 }
