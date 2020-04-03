@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ * Start Bootstrap - Extra Space v (https://extraspace1000.com)
+ * Copyright 2013-2020 
+ * Licensed under MIT (https://github.com/BlackrockDigital/extra-space-storage-website/blob/master/LICENSE)
  */
 
 body {
@@ -71,6 +71,16 @@ header.masthead a {
   background-size: cover;
 }
 
+.showcase .overlay {
+  height: auto;
+  min-height: 30rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 100%), url("../img/yard_by_drone-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .showcase h2 {
   color: #fd432b;
 }
@@ -89,6 +99,12 @@ header.masthead a {
   }
 }
 
+@media (min-width: 576px) {
+  .showcase .showcase-text {
+    padding-top: 7rem;
+  }
+}
+
 .map-responsive {
   background-size: contain;
   overflow: hidden;
@@ -103,6 +119,8 @@ header.masthead a {
   height: 100%;
   width: 100%;
   position: absolute;
+  scroll-behavior: none;
+  overflow: hidden;
 }
 
 .features-icons {
@@ -181,4 +199,31 @@ footer.footer ul {
 
 footer.footer .list-item {
   margin-bottom: 3rem;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  color: #355e4a;
+}
+
+.text-primary {
+  color: #355e4a !important;
+}
+
+.bg-primary {
+  background-color: #355e4a !important;
+}
+
+.btn-primary {
+  background-color: #355e4a !important;
+  border-color: #355e4a !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #355e4a !important;
 }
