@@ -3,8 +3,8 @@ header.masthead {
   background-color: $gray-800;
   background: url('../img/yard_entrance_crop.jpg') no-repeat center center;
   @include background-cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 18rem;
+  padding-bottom: 1rem;
   .overlay {
     position: absolute;
     background-color: $gray-900;
@@ -27,8 +27,8 @@ header.masthead {
     font-size: 1.1rem;
   }
   @media (min-width: 768px) {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 21rem;
+    padding-bottom: 1rem;
     h1 {
       font-size: 3rem;
     }

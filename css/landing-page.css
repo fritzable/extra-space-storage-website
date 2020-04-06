@@ -23,8 +23,8 @@ header.masthead {
   background-color: #343a40;
   background: url("../img/yard_entrance_crop.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 18rem;
+  padding-bottom: 1rem;
 }
 
 header.masthead .overlay {
@@ -52,8 +52,8 @@ header.masthead a {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 21rem;
+    padding-bottom: 1rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -161,9 +161,8 @@ header.masthead a {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/custom_spaces.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 3rem;
+  background: no-repeat 50% 55%/200% url("../img/custom_spaces.jpg");
+  padding-top: 19rem;
 }
 
 .call-to-action .overlay {
@@ -184,8 +183,12 @@ header.masthead a {
   background-color: #fff;
 }
 
-.call-to-action .cta-row-bottom {
-  padding-top: 11rem;
+@media (min-width: 768px) {
+  .call-to-action {
+    background: no-repeat center center url("../img/custom_spaces.jpg");
+    background-size: cover;
+    padding-top: 20rem;
+  }
 }
 
 footer.footer {
