@@ -8,6 +8,19 @@
     min-height: 30rem;
     background-size: cover;
   }
+  .showcase-list {
+    font-size: 1rem;
+    font-weight: 300;
+    ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    }
+  }
   .overlay {
     height: auto;
     min-height: 30rem;
@@ -17,6 +30,9 @@
     background-attachment: scroll;
     background-size: cover;
   }
+  .table td {
+    border-top: 1px solid $gray-500;
+  }
   h2 {
     color: rgb(253, 67, 43);
   }
@@ -25,7 +41,7 @@
     &:hover {
       background-color: $gray-900;
     }
-  } 
+  }
 
   @media (min-width: 768px) {
     .showcase-text {

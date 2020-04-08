@@ -69,6 +69,26 @@ header.masthead a {
   background-size: cover;
 }
 
+.showcase .showcase-list {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.showcase .showcase-list ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  -webkit-padding-start: 20px;
+  padding-inline-start: 20px;
+}
+
 .showcase .overlay {
   height: auto;
   min-height: 30rem;
@@ -77,6 +97,10 @@ header.masthead a {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.showcase .table td {
+  border-top: 1px solid #adb5bd;
 }
 
 .showcase h2 {
