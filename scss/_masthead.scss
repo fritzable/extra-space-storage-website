@@ -1,10 +1,10 @@
 header.masthead {
   position: relative;
-  background-color: rgb(78, 134, 255);
-  background: url('../img/yard_entrance_crop.jpg') no-repeat center center;
+  background-color: $gray-800;
+  background: url('../img/yard_front_1.jpg') no-repeat center center;
   @include background-cover;
   margin-top: -120px;
-  padding-top: 26rem;
+  padding-top: 25rem;
   padding-bottom: 2rem;
   .overlay {
     position: absolute;
@@ -28,7 +28,7 @@ header.masthead {
     font-size: 1.1rem;
   }
   @media (min-width: 768px) {
-    padding-top: 30rem;
+    padding-top: 28rem;
     padding-bottom: 4rem;
   }
 }
