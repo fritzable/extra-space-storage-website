@@ -1,24 +1,21 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/yard_front_1.jpg') no-repeat center center;
+  background: url('../img/Entry-6-2020.jpg') no-repeat center center;
   @include background-cover;
-  margin-top: -120px;
-  padding-top: 25rem;
-  padding-bottom: 2rem;
-  .overlay {
-    position: absolute;
-    background-color: $gray-900;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.4;
-  }
+  margin-top: -60px;
+  padding-top: 6rem;
   .modal-body {
     a {
     color: $blue;
     }
+  }
+  .modal-btn {
+    margin-top: 10rem;
+  }
+  .masthead-text {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
   }
   h1 {
     font-size: 2rem;
@@ -27,8 +24,8 @@ header.masthead {
     color: #fff;
     font-size: 1.1rem;
   }
-  @media (min-width: 768px) {
-    padding-top: 24rem;
-    padding-bottom: 4rem;
-  }
+  // @media (min-width: 768px) {
+  //   padding-top: 24rem;
+    // padding-bottom: 15rem;
+  // }
 }
