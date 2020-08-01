@@ -23,8 +23,17 @@ header.masthead {
   background-color: #343a40;
   background: url("../img/Entry-6-2020.jpg") no-repeat center center;
   background-size: cover;
-  margin-top: -60px;
-  padding-top: 6rem;
+  margin-top: -80px;
+  padding-top: 5rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 header.masthead .modal-body a {
@@ -32,21 +41,41 @@ header.masthead .modal-body a {
 }
 
 header.masthead .modal-btn {
-  margin-top: 10rem;
+  margin-top: 9rem;
+  margin-bottom: 7rem;
+}
+
+header.masthead .modal-btn .btn {
+  box-shadow: 0 0 5px 3px #fff;
 }
 
 header.masthead .masthead-text {
-  margin-top: 10rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+header.masthead h4 {
+  font-size: 1.4rem;
 }
 
 header.masthead a {
   color: #fff;
   font-size: 1.1rem;
+}
+
+@media (min-width: 991px) {
+  header.masthead {
+    margin-top: -10px;
+    padding-top: 12rem;
+  }
+  header.masthead .modal-btn {
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .showcase .showcase-text {
