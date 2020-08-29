@@ -1,32 +1,30 @@
 .call-to-action {
-  position: relative;
   background-color: $gray-800;
-  background: no-repeat 50% 55%/200% url('../img/custom_spaces.jpg');
-  padding-top: 19rem;
-  .overlay {
-    position: absolute;
-    background-color: $gray-900;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.4;
-  }
+
   .address {
     p {
       margin: 0;
     }
   }
+
+  .cta-img {
+    background-size: cover;
+    @include background-cover;
+  }
+
+  .right {
+    background-position: 25%;
+  }
+
   .cta-item {
     background-color: #fff;
   }
 
-  @media (min-width: 768px) {
-    background: no-repeat center center url('../img/custom_spaces.jpg');
-    @include background-cover;
-    padding-top: 20rem;
+  .cta-row {
+    height: 40vw;
+    min-height: 20rem;
   }
-  
+
 }
 .cta-row-bottom {
   margin-top: 5rem;
