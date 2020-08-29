@@ -1,6 +1,9 @@
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
+  .flex {
+    flex-wrap: wrap;
+  }
   .testimonial-item {
     max-width: 18rem;
     img {

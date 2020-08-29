@@ -191,6 +191,10 @@ header.masthead a {
   padding-bottom: 7rem;
 }
 
+.testimonials .flex {
+  flex-wrap: wrap;
+}
+
 .testimonials .testimonial-item {
   max-width: 18rem;
 }
