@@ -171,7 +171,7 @@ header.masthead a {
 }
 
 .features-icons .features-icons-item {
-  max-width: 20rem;
+  max-width: 22vw;
 }
 
 .features-icons .features-icons-item .features-icons-icon {
@@ -184,6 +184,13 @@ header.masthead a {
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
   font-size: 5rem;
+}
+
+@media (max-width: 767px) {
+  .features-icons .features-icons-item {
+    max-width: 42vw;
+    padding-bottom: 4rem;
+  }
 }
 
 .testimonials {

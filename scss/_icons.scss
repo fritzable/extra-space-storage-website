@@ -2,7 +2,7 @@
   padding-top: 5rem;
   padding-bottom: 7rem;
   .features-icons-item {
-    max-width: 20rem;
+    max-width: 22vw;
     .features-icons-icon {
       height: 7rem;
       i {
@@ -15,6 +15,12 @@
           font-size: 5rem;
         }
       }
+    }
+  }
+  @media (max-width: 767px) {
+    .features-icons-item {
+      max-width: 42vw;
+      padding-bottom: 4rem;
     }
   }
 }
