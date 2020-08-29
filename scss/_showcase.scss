@@ -46,14 +46,14 @@
     }
   }
 
+  @media (max-width: 692px) {
+    padding-top: 178px;
+    margin-top: -232px;
+  }
+
   @media (min-width: 768px) {
     .showcase-text {
       padding: 7rem;
-    }
-  }
-  @media (min-width: 576px) {
-    .showcase-text {
-      padding-top: 7rem;
     }
   }
 }

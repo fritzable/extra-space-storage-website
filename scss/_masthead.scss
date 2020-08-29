@@ -5,6 +5,7 @@ header.masthead {
   @include background-cover;
   margin-top: -80px;
   padding-top: 5rem;
+  padding-bottom: 2rem;
   .overlay {	
     position: absolute;	
     background: linear-gradient(to bottom, #{fade-out($white, .9)} 50%,#{fade-out($black, .3)} 90%);

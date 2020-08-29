@@ -1,7 +1,7 @@
 .features-icons {
   margin-top: -5rem;
   padding-top: 10rem;
-  padding-bottom: 7rem;
+  padding-bottom: 5rem;
   .features-icons-item {
     max-width: 22vw;
     .features-icons-icon {
@@ -17,6 +17,10 @@
         }
       }
     }
+  }
+  @media (max-width: 692px) {
+    padding-top: 220px;
+    margin-top: -89px;
   }
   @media (max-width: 767px) {
     .features-icons-item {

@@ -36,3 +36,19 @@ html {
   color: #fff;
   background-color: $primary !important;
 }
+
+  .navbar-brand{
+      .image {
+      max-width: 300px;
+      height: auto;
+  }
+}
+@media (max-width: 403px) {
+  .navbar-brand{
+    .image {
+      min-width: 167px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

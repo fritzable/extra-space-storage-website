@@ -24,7 +24,10 @@
     height: 40vw;
     min-height: 20rem;
   }
-
+  @media (max-width: 692px) {
+    padding-top: 178px;
+    margin-top: -232px;
+  }
 }
 .cta-row-bottom {
   margin-top: 5rem;
