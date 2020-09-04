@@ -80,8 +80,6 @@ header.masthead a {
 }
 
 .showcase {
-  padding-top: 89px;
-  margin-top: -89px;
   padding-bottom: 89px;
 }
 
@@ -144,8 +142,8 @@ header.masthead a {
 
 @media (max-width: 692px) {
   .showcase {
-    padding-top: 178px;
-    margin-top: -232px;
+    padding-top: 111px;
+    margin-top: -111px;
   }
 }
 
@@ -235,13 +233,13 @@ header.masthead a {
   }
 }
 
+.address {
+  padding-bottom: 1rem;
+}
+
 .call-to-action {
   padding-top: 89px;
   margin-top: -89px;
-}
-
-.call-to-action .address p {
-  margin: 0;
 }
 
 .call-to-action .cta-img {
